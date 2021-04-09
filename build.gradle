@@ -1,10 +1,13 @@
 plugins {
     id 'java'
-    id 'info.solidsoft.pitest' version '1.6.0'
+    id 'jacoco'
+    id 'info.solidsoft.pitest' version '1.5.1'
 }
 
-group 'org.example'
-version '1.0-SNAPSHOT'
+group = 'org.example'
+version = '0.0.1-SNAPSHOT'
+
+apply plugin: 'info.solidsoft.pitest'
 
 repositories {
     mavenCentral()
@@ -23,10 +26,50 @@ dependencies {
     testImplementation 'org.hamcrest:hamcrest:2.2'
 }
 
-pitest {
-    targetClasses = ['org.example.*']  //by default "${project.group}.*"
-    pitestVersion = '1.6.0' //not needed when a default PIT version should be used
-    threads = 4
-    outputFormats = ['XML', 'HTML']
-    timestampedReports = false
+test {
+    useJUnitPlatform()
+    finalizedBy jacocoTestReport // report is always generated after tests run
 }
+
+jacocoTestReport {
+    dependsOn test
+
+    afterEvaluate {
+        classDirectories.from = files(classDirectories.files.collect {
+            fileTree(
+                    dir: it,
+                    exclude: [  ])
+        })
+    }
+}
+
+jacoco {
+    toolVersion = "0.8.6"
+    reportsDir = file("$buildDir/reports/jacoco")
+}
+
+jacocoTestCoverageVerification {
+    dependsOn test
+
+
+    violationRules {
+        rule {
+            limit {
+                counter = 'LINE'
+                value = 'MISSEDCOUNT'
+                maximum = 2
+            }
+        }
+    }
+}
+
+pitest {
+    junit5PluginVersion = '0.12'
+    timestampedReports = false
+    targetClasses = ['org.example.*']
+    threads = 12
+}
+
+build.dependsOn test
+build.dependsOn jacocoTestReport
+build.dependsOn jacocoTestCoverageVerification
