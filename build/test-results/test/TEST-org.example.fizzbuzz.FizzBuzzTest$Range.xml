@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.fizzbuzz.FizzBuzzTest$Range" tests="16" skipped="0" failures="0" errors="0" timestamp="2021-04-09T11:23:03" hostname="mini.lan" time="0.024">
+  <properties/>
+  <testcase name="1から16までテスト" classname="org.example.fizzbuzz.FizzBuzzTest$Range" time="0.002"/>
+  <testcase name="1から16までテスト" classname="org.example.fizzbuzz.FizzBuzzTest$Range" time="0.0"/>
+  <testcase name="1から16までテスト" classname="org.example.fizzbuzz.FizzBuzzTest$Range" time="0.0"/>
+  <testcase name="1から16までテスト" classname="org.example.fizzbuzz.FizzBuzzTest$Range" time="0.0"/>
+  <testcase name="1から16までテスト" classname="org.example.fizzbuzz.FizzBuzzTest$Range" time="0.0"/>
+  <testcase name="1から16までテスト" classname="org.example.fizzbuzz.FizzBuzzTest$Range" time="0.0"/>
+  <testcase name="1から16までテスト" classname="org.example.fizzbuzz.FizzBuzzTest$Range" time="0.0"/>
+  <testcase name="1から16までテスト" classname="org.example.fizzbuzz.FizzBuzzTest$Range" time="0.0"/>
+  <testcase name="1から16までテスト" classname="org.example.fizzbuzz.FizzBuzzTest$Range" time="0.0"/>
+  <testcase name="1から16までテスト" classname="org.example.fizzbuzz.FizzBuzzTest$Range" time="0.001"/>
+  <testcase name="1から16までテスト" classname="org.example.fizzbuzz.FizzBuzzTest$Range" time="0.0"/>
+  <testcase name="1から16までテスト" classname="org.example.fizzbuzz.FizzBuzzTest$Range" time="0.001"/>
+  <testcase name="1から16までテスト" classname="org.example.fizzbuzz.FizzBuzzTest$Range" time="0.0"/>
+  <testcase name="1から16までテスト" classname="org.example.fizzbuzz.FizzBuzzTest$Range" time="0.0"/>
+  <testcase name="1から16までテスト" classname="org.example.fizzbuzz.FizzBuzzTest$Range" time="0.0"/>
+  <testcase name="1から16までテスト" classname="org.example.fizzbuzz.FizzBuzzTest$Range" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

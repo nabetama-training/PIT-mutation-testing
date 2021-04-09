@@ -1,2 +1,4 @@
 org/example/fizzbuzz/FizzBuzzTest.java
  org.example.fizzbuzz.FizzBuzzTest
+ org.example.fizzbuzz.FizzBuzzTest$Range
+ org.example.fizzbuzz.FizzBuzzTest$Range$TestCase
