@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 class CoverageSuckTest {
     @Test
-    void biggerThan10Test() {
+    void biggerThan10CoverageSuckTest() {
         CoverageSuck suck = new CoverageSuck();
 
         Assertions.assertTrue(suck.biggerThan10(11));
