@@ -2,3 +2,5 @@ org/example/fizzbuzz/FizzBuzzTest.java
  org.example.fizzbuzz.FizzBuzzTest
  org.example.fizzbuzz.FizzBuzzTest$Range
  org.example.fizzbuzz.FizzBuzzTest$Range$TestCase
+org/example/nutshell/CoverageSuckTest.java
+ org.example.nutshell.CoverageSuckTest
