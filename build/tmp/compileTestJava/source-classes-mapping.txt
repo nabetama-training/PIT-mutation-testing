@@ -4,3 +4,7 @@ org/example/fizzbuzz/FizzBuzzTest.java
  org.example.fizzbuzz.FizzBuzzTest$Range$TestCase
 org/example/nutshell/CoverageSuckTest.java
  org.example.nutshell.CoverageSuckTest
+org/example/singleton/CoverageSuckSingletonTest.java
+ org.example.singleton.CoverageSuckSingletonTest
+org/example/singleton/SingletonTest.java
+ org.example.singleton.SingletonTest

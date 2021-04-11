@@ -2,3 +2,5 @@ org/example/fizzbuzz/FizzBuzz.java
  org.example.fizzbuzz.FizzBuzz
 org/example/nutshell/CoverageSuck.java
  org.example.nutshell.CoverageSuck
+org/example/singleton/Singleton.java
+ org.example.singleton.Singleton
